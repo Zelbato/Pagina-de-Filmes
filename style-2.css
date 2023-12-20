@@ -119,7 +119,7 @@ header .menu {
 @media(max-width:700px) {
 
     .fundo {
-        background: url('/Imagens/capa\ Homem\ Aranha\ Atravez\ do\ Aranhavero.jpeg') no-repeat center fixed;
+        background: url('Imagens/Homem-Aranha-Atraves-do-AranhaVerso-poster-Guerras-das-Aranhas.png') no-repeat center fixed;
         position: relative;
         -webkit-background-size: cover;
     }
@@ -190,7 +190,8 @@ a {
 
 .section img {
     margin-left: 2%;
-    height: auto;
+    width:250px;
+     height:350px;
 }
 
 .section h3 {
@@ -248,4 +249,31 @@ h3 {
     border: 1px solid white;
     padding: 0.3%;
 
+}
+
+@media screen and (max-width: 800px) {
+    /* Estilos para quando a tela for menor que 800px */
+
+    .section {
+        flex-direction: column;
+    }
+
+    .section img {
+        margin-top: -45%;
+        width:250px;
+         height:350px;
+    }
+
+    .section .btn {
+        position: absolute;
+        top: 60%;
+        left: 40%;
+    }
+
+    .section h3 {
+        color: white;
+        font-size: 20px;
+        margin-top: 10%;
+        margin-left: none;
+    }
 }

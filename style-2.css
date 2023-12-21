@@ -37,15 +37,7 @@ h1 a {
     position: relative;
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: black;
-    opacity: 0.1;
-    width: 100%;
-    height: 100%;
-}
+
 
 header {
     width: 100%;
@@ -190,8 +182,10 @@ a {
 
 .section img {
     margin-left: 2%;
-    width:250px;
-     height:350px;
+    width: 250px;
+    height: 350px;
+    
+    border-radius: 3%;
 }
 
 .section h3 {
@@ -235,7 +229,7 @@ h3 {
     align-items: center;
     font-size: 30px;
     color: white;
-    border-radius: 0%;
+    border-radius: 15%;
     margin-left: 2%;
     margin-right: 2%;
     padding: 0.2%;
@@ -254,15 +248,18 @@ h3 {
 @media screen and (max-width: 800px) {
     /* Estilos para quando a tela for menor que 800px */
 
+    /*Imagem e descrição do filme*/
+
     .section {
         flex-direction: column;
     }
 
     .section img {
         margin-top: -45%;
-        width:250px;
-         height:350px;
-         margin-left: -1%;
+        width: 250px;
+        height: 350px;
+        margin-left: -1%;
+        border-radius: 3%;
     }
 
     .section .btn {
@@ -292,3 +289,55 @@ h3 {
         padding: 2%;
     }
 }
+
+/*Sinopse*/
+
+.article {
+    margin-left: 24%;
+    margin-top: 2%;
+}
+
+
+.article .text {
+    max-height: 49px;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 0.4s ease;
+}
+
+.overflow {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+}
+
+.article .overflow[data-state="visible"] {
+    display: block;
+}
+
+.article a {
+    text-decoration: none;
+    color: #ffecaf;
+}
+
+.article a:hover {
+    color: #ffc527;
+}
+
+@media screen and (max-width: 700px) {
+    /*Sinopse Mobile*/
+    
+    .article {
+        margin-top: 9%;
+        margin-left: -1%;
+    }
+
+    .article .text {
+        text-align: justify;
+        font-size: 16px;
+    }
+}
+

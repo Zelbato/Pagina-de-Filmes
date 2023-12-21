@@ -262,6 +262,7 @@ h3 {
         margin-top: -45%;
         width:250px;
          height:350px;
+         margin-left: -2%;
     }
 
     .section .btn {
@@ -273,7 +274,21 @@ h3 {
     .section h3 {
         color: white;
         font-size: 20px;
-        margin-top: 10%;
-        margin-left: none;
+        text-align: center;
+        margin-top: 15%;
+        margin-left: -10%;
+    }
+
+    .section h4 {
+        font-size: 15px;
+    }
+
+    .section .but0 {
+        height: 25px;
+        width: 35px;
+        font-size: 25px;
+        border-radius: 15%;
+        margin-left: -4%;
+        padding: 2%;
     }
 }

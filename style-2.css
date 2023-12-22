@@ -181,7 +181,6 @@ a {
 
 
 .section img {
-    margin-left: 2%;
     width: 250px;
     height: 350px;
     
@@ -220,7 +219,7 @@ h3 {
     border-radius: 15%;
     margin-left: 2%;
     margin-right: 2%;
-    padding: 0.2%;
+    padding: 0.4%;
 
 
 }
@@ -276,7 +275,7 @@ h3 {
 /*Mobile com 900px */
 
 
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 700px) {
         /* Estilos para quando a tela for menor que 800px */
     
         /*Imagem e descrição do filme*/
@@ -284,7 +283,7 @@ h3 {
         
     
         .section img {
-            margin-top: -30%;
+            margin-top: -50%;
             width: 250px;
             height: 350px;
             border-radius: 3%;
@@ -308,46 +307,12 @@ h3 {
             font-size: 25px;
             border-radius: 15%;
             margin-left: -4%;
-            padding: 2%;
+            padding: 0%;
         }
     }
 
-    @media screen and (min-width:700px) {
-        /* Estilos para quando a tela estiver entre 500 e 700px */
-
-        .section img {
-            margin-top: -20%;
-            float: left;
-            margin-left: 2%;
-            width: 200px;
-            height: 300px;
-            border-radius: 3%;
-        }
-    
-        .section h3 {
-            color: white;
-            font-size: 20px;
-            text-align: center;
-            margin-top: 10%;
-            margin-left: 0%;
-            margin-bottom: 5%;
-        }
-    
-        .section h4 {
-            font-size: 15px;
-        }
-    
-        .section .but0 {
-            height: 25px;
-            width: 35px;
-            font-size: 25px;
-            border-radius: 15%;
-            margin-left: 15%;
-            padding: 2%;
-        }
-        
-    }
-    @media screen and (min-width: 900px) and (max-width : 1300px){
+   
+    @media screen and (min-width: 800px) and (max-width: 900px) {
         /* Estilos para quando a tela for menor que 900px */
     
         /*Imagem e descrição do filme*/
@@ -373,7 +338,7 @@ h3 {
             font-size: 25px;
             border-radius: 15%;
             margin-left: 4%;
-            padding: 1%;
+            padding: 2%;
         }
     }
     
@@ -384,7 +349,7 @@ h3 {
 /*Sinopse*/
 
 .article {
-    margin-left: 24%;
+    margin-left: 22%;
     margin-top: 2%;
 }
 
@@ -449,19 +414,7 @@ h3 {
     }
 }
 
-@media screen and (min-width: 1000px ) {
-    
-    .article {
-        margin-top: 5%;
-        margin-left: 28%;
-    }
 
-    .article .text {
-        text-align: justify;
-        font-size: 18px;
-    }
-
-}
 
 /*Compra*/
 

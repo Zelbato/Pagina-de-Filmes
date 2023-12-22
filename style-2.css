@@ -450,7 +450,7 @@ h3 {
 }
 
 .slider-wrapper .slide-button#prev-slide {
-    left: -25px;
+    left: 60px;
     display: none;
 }
 
@@ -459,6 +459,7 @@ h3 {
 }
 
 .slider-wrapper .image-list {
+    margin-left: 4%;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     gap: 20px;
@@ -474,6 +475,7 @@ h3 {
 }
 
 .slider-wrapper .image-list .image-item {
+
     width: 255px;
     height: 400px;
     object-fit: contain;

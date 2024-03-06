@@ -212,10 +212,11 @@ h3 {
     margin-left: 18%;
     height: 35px;
     width: 45px;
-    background-color: #f58020;
+    background-image: linear-gradient(to right,#f38e4a,#f75027);
+    color: white;
+     box-shadow: 0 0 10px rgba(255, 131, 82, 0.5);
     align-items: center;
     font-size: 30px;
-    color: white;
     border-radius: 15%;
     margin-left: 2%;
     margin-right: 2%;

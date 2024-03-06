@@ -117,7 +117,7 @@ header .menu {
     }
 
     header {
-        background-color: rgba(0, 0, 0, 0.767);
+        background-color:rgba(0, 0, 0, 0.929);
         position: relative;
     }
 
@@ -125,7 +125,7 @@ header .menu {
         position: absolute;
         top: 100px;
         right: 100%;
-        background: rgba(0, 0, 0, 0.767);
+        background: rgba(0, 0, 0, 0.959);
         height: calc(100vh - 100px);
         width: 100%;
         flex-direction: column;
@@ -305,7 +305,10 @@ h3 {
             background-color: transparent;
             display:inline-flex;
             
-            padding: 6% 10%;
+           width: 300px;
+           text-align:center;
+           justify-content:space-around;
+           margin-bottom: 10%;
             
         }
 
@@ -314,9 +317,14 @@ h3 {
         }
 
         .section .but0 {
-            width: 50px;
-            height: 50px;
             text-align: center;
+            background-image: linear-gradient(to right,#f38e4a,#f75027);
+            color: white;
+            box-shadow: 0 0 10px rgba(255, 131, 82, 0.5);
+            border: none;
+            cursor: pointer;
+            font-size: 20px;
+            width: 50px;
         }
 
 
